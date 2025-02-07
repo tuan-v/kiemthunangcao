@@ -96,7 +96,7 @@ public class bai4 {
 }
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-//5. Check user (Bài này lưu ý k tạo ra user mới ở 1 class riêng thỳ check bằng niềm tin - nếu đúng tên nó sẽ k hiện ra đâu nhé !)
+//5
 
 public class User {
     private String name;
@@ -116,8 +116,8 @@ public class User {
     @Test
     void testUserName() {
         User user = new User();
-        user.setName("Tien Si Nguyen");
-        assertEquals("Tien Si Nguyen", user.getName());
+        user.setName("Vu Tuan Anh");
+        assertEquals("Vu Tuan Anh", user.getName());
     }
 
 	-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
